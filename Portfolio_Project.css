@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Playfair+Display:wght@500&family=Tulpen+One&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Playfair+Display:wght@500&family=Tulpen+One&display=swap');
+
+*{
+    margin: 0;  /*The margin and padding 0 to remove the space between the web and actual screen.*/
+    padding: 0;
+}
+
+.container
+{
+    display: flex;  /*To separet out the main and sidebar*/
+}
+
+.sidebar
+{
+    background-color: rgb(248, 217, 171) ;
+    /* width: 20vw; */
+    width: 434px;
+    font-family: 'Fira Sans',sans-serif;
+    font-size: 20px;
+    height: 100vh;
+}
+
+.infocontainer
+{
+    background-color: rgb(231, 200, 171); 
+    color: rgb(94, 55, 19);
+    height: 60vh;
+    width: 70vw;
+    margin: 80px;
+    display: flex;
+    justify-content: space-around;    /*To make space around the picture and information and separetout both the contnt which
+                                        is present in the container. */
+}
+
+li a{
+    text-decoration: none;  /* To remove the Under-lines of links*/
+    color: rgb(92, 57, 25); 
+
+}
+
+.hello
+{
+    font-size: 65px;    
+}
+.name
+{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Fira Sans',sans-serif; 
+    text-shadow: 5px;
+    /* text-shadow:  3px 1px black;     /*use for shadow */
+}
+.about
+{
+    font-size: 30px;
+    
+}
+
+.moreabout
+{
+    font-size: 15px;
+    font-family: 'Fira Sans',sans-serif;
+    margin-top: 20px;
+}
+
+.devpic img
+{
+    height: 60vh;
+}
+
+.devInfo
+{
+    /* width: 100px; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro',monospace;
+}
+
+.but
+{
+    display: inline;
+}
+
+.but button{
+    margin-top: 34px;
+    padding: 9px;
+    border-radius: 15px;
+    background-color: rgb(26, 152, 236);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#conbtn
+{
+    margin: 12px 0;
+    font-size: 14px;
+    padding: 10px 19px;
+}
+
+.but button:hover     /*after pointing on the button color is change.*/
+{
+    background-color: white;
+    color: dodgerblue;
+
+}
+
+.sidebar nav li 
+{
+    list-style-type: none;   /* To remove the dots of list item's. */
+    font-weight: bolder;
+    padding: 30px ;
+}
+.sidebar nav
+{
+    padding: 50px;
+}
+
+.main
+{
+    background-color:  rgb(236, 192, 125);
+    width: 90vw;
+}
+.contactform h1
+{
+    font-family: 'Source Code Pro';
+    margin-top: 100px;
+    /* text-align: center; */
+}
+
+.contactform
+{
+    padding-top: 144px;
+    padding: 0 34px;
+    font-family: 'Fira Sans','sans-serif';
+}
+
+.form-group
+{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column; 
+}
+
+.form-group input
+{
+    width: 25vw;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px; 
+}
+
+#emailHelp
+{
+    font-size: 11px;
+    font-weight: bold ;
+    color: midnightblue;
+    margin-left: 5px;
+    margin-top: -5px;
+    padding-top: 5px;
+}
+
+.form-check
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.form-check input
+{
+    width: 24px;
+    margin: 3px 0;
+}
+
+
+.blogitem
+{
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+.blogcontainer h1
+{
+    font-family: 'Fira Sans',sans-serif;    
+}
+
+.blogitem p
+{
+    font-family: 'Source Code Pro',monospace;
+}
+
+.btn
+{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgb(26, 152, 236);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover
+{
+    background-color: white;
+    color: dodgerblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
