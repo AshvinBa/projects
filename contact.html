@@ -12,7 +12,7 @@
 <body>
     <div class="container"> <!-- This contain all the code of portfolio -->
 
-        <div class="sidebar"> <!-- To make the sidebar -->
+        <div class="sidebar sidebarGo"> <!-- To make the sidebar -->
 
             <nav>
                 <ul>
@@ -25,11 +25,15 @@
             </nav>
         </div>
         <div class="main">
+            <div class="hamburger">
+                <img class="ham" src="ham.png" alt="" width=20px>
+                <img class="cross" src="cross.png" alt="" width=20px height="18px">
+            </div>
+            
             <div class="contactform">
                 <h1>Contact me for work/general Enquiries</h1>
                 <!-- Bootstrap-Form's-->
                 <form>
-
                 <div class="form-group">
                     <label for="clientemail" class="form-lable"><b>Name</b></label>
                     <input type="name" class="form-control" id="clientemail" aria-describedby="emailHelp">
@@ -58,17 +62,9 @@
                     </div>
 
                     <div class="but">
-                        <button id="conbtn" type="submit">submit</button></a>
+                        <button id="conbtn" type="submit" onclick="func()">submit</button></a>
                     </div>
-
-
-
-                </form>
-        
-                <!-- --------------------------- -->
-
-
-
+                </form>               <!-- --------------------------- -->
             </div>
         </div>
 
@@ -76,5 +72,12 @@
 
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
 </body>
+<script src="Portfolio_Project.js"></script>
+<script>
+    function func()
+    {
+        alert("Your responce is submitted.");
+    }
+</script>
 
 </html>
