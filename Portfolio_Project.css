@@ -15,7 +15,7 @@
 
 .sidebar
 {
-    background-color: rgb(212, 205, 193) ;
+    background-color: rgb(233, 240, 243);
     /* width: 20vw; */
     /* width: 434px; */
     position: absolute;
@@ -131,16 +131,10 @@ li a{
 .contactform h1
 {
     font-family: 'Source Code Pro';
-    margin-top: 100px;
+    margin-top: 40px;
     /* text-align: center; */
 }
 
-.contactform
-{
-    padding-top: 144px;
-    padding: 0 34px;
-    font-family: 'Fira Sans','sans-serif';
-}
 
 .form-group
 {
@@ -178,7 +172,6 @@ li a{
     width: 24px;
     margin: 3px 0;
 }
-
 
 .blogitem
 {
@@ -323,9 +316,68 @@ li a{
 
 .contactform
 {
+    padding-top: 15px;
+    padding-left: 34px;
+    padding-right: 34px;
+    width: 400px;
+    margin-top: 50px;
+    align-content: center;
     align-items: center;
-    /* border: 2px solid black; */
-    margin-left: 250px;
+    /* border: 0.2px solid black; */
+    border-radius: 20px;
+    margin-left: 450px;
+    height: 650px;
+    font-family: 'Fira Sans','sans-serif';
+    background-color: rgb(233, 240, 243);
+    box-shadow: 0px 0px 5px 5px rgba(3, 45, 53, 0.219);
+}
+
+.con
+{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;  */
+    height: 80px;
+    width: 380px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-bottom: -5px;
+    /* border: 0.2px solid black; */
+    box-shadow: 0px 0px 5px 5px #cce3e6 ;
+    color: #555;
+    text-decoration: none;  /* To remove the Under-lines of links*/
+    /* color: black;  */
+}
+
+.allcon
+{
+    background-color: #d2f2f3;
+    width: 100%;
+    height: 100%;
+}
+.con h3 a
+{
+    text-decoration: none;  /* To remove the Under-lines of links*/
+    color: black; 
+}
+.email
+{
+    margin-top: 27px;
+    margin-left: 25px; 
+}
+
+.em
+{
+    margin-left: 20px;
+}
+.li
+{
+    margin-left: 30px;
+}
+.lis
+{
+    margin-top: 27px;
 }
 .thirty-five
 {
@@ -361,15 +413,134 @@ li a{
 {
     margin: 80px;
 }
+/* blog container*/
 
-
+.heading
+{
+    margin-left: 150px;
+    margin-top: 80px;
+}
 
 .blogcontainer
 {
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 1250px;
+    height: 500px;
+    /* border: 0.2px solid black; */
+}
+
+.head
+{
+    margin-left: 150px;
+    margin-top: 20px;
+    color: #555;
+}
+
+.proj
+{
+    margin-left: 150px;
+}
+
+.blogitem
+{
+    border: 2px solid #e0dede;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 3px rgb(196, 197, 197);
+    height: 400px;
+    width: 330px;
+    margin-left: 50px;
+    display: flex;
+    float: left;
+    /* background-color: #cce3e6; */
+}
+
+.img1
+{
+    box-shadow: 0px 0px 5px 5px rgb(197, 204, 204);
+    width: 250px;
+    height: 200px;
+    margin: 30px;
+    margin-left: 35px;
+    border-radius: 10px;
+}
+
+.img2
+{
+    box-shadow: 0px 0px 5px 5px rgb(197, 204, 204);
+    width: 250px;
+    height: 200px;
+    margin: 30px;
+    margin-left: 35px;
+    border-radius: 10px;
+}
+
+.img3
+{
+    box-shadow: 0px 0px 5px 5px rgb(197, 204, 204);
+    width: 250px;
+    height: 200px;
+    margin: 30px;
+    margin-left: 35px;
+    border-radius: 10px;
+}
+
+.card-body
+{
+    margin-top: 20px;
+}
+.card-body h1
+{
     margin-left: 100px;
 }
 
+.btn-group
+{
+    margin-left: 50px;
+}
+
+.btn-sm
+{
+    margin-left: 20px;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    box-shadow: 0px 0px 3px 3px rgb(78, 78, 76);
+}
+
+.blogitem h1
+{
+    display: flex;
+}
+
+.switch
+{
+    padding: 10px;
+    /* border: 0.2px solid black; */
+    height: 100px;
+    width: 500px;
+    margin-left: 500px;
+}
+
+.nswi
+{
+    /* align-items: center; */
+    padding-top: 18px;
+    font-size: larger;
+    margin-top: 5px;
+    width: 200px;
+    height: 50px;
+    margin-left: 70px;
+    border: 2px solid #9b9a9a;
+    border-radius: 10px;
+    background-color: white;
+    color: #555;
+}
+
+
+/*----------------------------------*/
 
 
 @media (max-width: 1215px) {
