@@ -16,32 +16,55 @@
 .sidebar
 {
     background-color: rgb(233, 240, 243);
+    background: linear-gradient(#f0eeee ,#9b9a9a,#6d6d6d);
     /* width: 20vw; */
     /* width: 434px; */
     position: absolute;
     font-family: 'Fira Sans',sans-serif;
     font-size: 20px;
-    height: 100vh;
+    height: 950px;
     transition: transform 0.3s ease-in;
+}
+
+body
+{
+    background-image: url(bg-2.jpg);
+
 }
 
 .infocontainer
 {
     /* background-color: rgb(231, 200, 171);  */
     /* color: rgb(94, 55, 19); */
-    height: 60vh;
-    width: 70vw;
-    margin: 80px 200px;
+    /* background: linear-gradient(#999,#979696,#9b9a9a,#cce3e6); */
+    height: 80vh;
+    width: 90vw;
+    margin: 80px 65px;
     /* margin: 80px; */
     display: flex;
     justify-content: space-around;    /*To make space around the picture and information and separetout both the contnt which
                                         is present in the container. */
 }
 
+.top
+{
+    width: 1345px;
+    height: 80px;
+    font-size: 80px;
+    /* border: 2p/x solid black; */
+    background: linear-gradient(300deg, #555,#999,#9b9a9a,black);
+    color: black;
+}
+
+.background
+{
+    width: 1500px;
+    border: 2px solid #555;
+}
+
 li a{
     text-decoration: none;  /* To remove the Under-lines of links*/
     color: black; 
-
 }
 
 .hello
@@ -68,18 +91,47 @@ li a{
     margin-top: 20px;
 }
 
+.devpic
+{
+    background-color: #acaaaa;
+    width: 300px;
+    height: 343px;
+    margin-top: 50px;
+    border-radius: 380px;
+    box-shadow: 0px 0px 5px 5px #555;    
+}
+
+
 .devpic img
 {
-    height: 60vh;
+    height: 53vh;
 }
 
 .devInfo
 {
     /* width: 100px; */
+    margin-top: -150px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     font-family: 'Source Code Pro',monospace;
+}
+
+.perimg
+{
+    border-radius: 90px;
+}
+
+.moreabout2
+{
+    margin-top: 5px;
+    font-family: sans-serif;
+}
+
+.sub
+{
+    font-family: sans-serif;
+    font-size: 12px;
 }
 
 .but
@@ -91,8 +143,8 @@ li a{
     margin-top: 34px;
     padding: 9px;
     border-radius: 15px;
-    background-color: rgb(26, 152, 236);
-    color: white;
+    /* background-color: rgb(26, 152, 236); */
+    color: rgb(48, 47, 47);
     font-size: 15px;
     font-weight: bold;
     cursor: pointer;
@@ -109,7 +161,6 @@ li a{
 {
     background-color: white;
     color: dodgerblue;
-
 }
 
 .sidebar nav li 
@@ -328,7 +379,7 @@ li a{
     margin-left: 450px;
     height: 650px;
     font-family: 'Fira Sans','sans-serif';
-    background-color: rgb(233, 240, 243);
+    /* background-color: rgb(233, 240, 243); */
     box-shadow: 0px 0px 5px 5px rgba(3, 45, 53, 0.219);
 }
 
@@ -344,7 +395,7 @@ li a{
     margin-top: 10px;
     padding-bottom: -5px;
     /* border: 0.2px solid black; */
-    box-shadow: 0px 0px 5px 5px #cce3e6 ;
+    box-shadow: 0px 0px 5px 5px #b4b4b4 ;
     color: #555;
     text-decoration: none;  /* To remove the Under-lines of links*/
     /* color: black;  */
@@ -352,9 +403,9 @@ li a{
 
 .allcon
 {
-    background-color: #d2f2f3;
-    width: 100%;
-    height: 100%;
+    /* background-color: #d2f2f3; */
+    /* width: 100%; */
+    /* height: 100%; */
 }
 .con h3 a
 {
@@ -462,6 +513,7 @@ li a{
     height: 200px;
     margin: 30px;
     margin-left: 35px;
+    margin-bottom: 0px;
     border-radius: 10px;
 }
 
@@ -472,6 +524,7 @@ li a{
     height: 200px;
     margin: 30px;
     margin-left: 35px;
+    margin-bottom: 0px;
     border-radius: 10px;
 }
 
@@ -482,6 +535,7 @@ li a{
     height: 200px;
     margin: 30px;
     margin-left: 35px;
+    margin-bottom: 0px;
     border-radius: 10px;
 }
 
@@ -534,9 +588,35 @@ li a{
     height: 50px;
     margin-left: 70px;
     border: 2px solid #9b9a9a;
+    box-shadow: 0px 0px 3px 3px #999;
     border-radius: 10px;
-    background-color: white;
+    /* background-color: white; */
+    text-decoration: none;
     color: #555;
+}
+
+.link
+{
+    color: #555;
+    text-decoration: none;
+}
+
+.dis
+{
+    margin-left: 25px;    
+}
+
+.header
+{
+    width: 1345px;
+    height: 80px;
+    /* border: 2p/x solid black; */
+    background: linear-gradient(300deg, #555,#999,#9b9a9a,black);
+    color: black;
+}
+.project
+{
+    font-size: 70px;
 }
 
 
@@ -619,6 +699,7 @@ li a{
 
 }
 
+/* Project section */
 
 
 
