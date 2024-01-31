@@ -1,0 +1,164 @@
+/*
+
+font-family: 'Black Ops One', system-ui;
+font-family: 'Inter', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Tulpen One', sans-serif;
+
+*/
+
+:root
+{
+    --primary-color:#6366F1;
+    --accent-color: #3f83f8;
+    --text-color: #333333;
+    --link-color:#2563eb;
+    --background-color: #ffffff;
+    --light-gray: #f0f0f0;
+    --gray: #808080;
+    --dark-gray: #555;
+}
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body
+{
+    height: 100vh;
+    text-align: center;
+    background-color: var(--background-color);
+    padding: 2rem;
+}
+
+.head
+{
+    /* border: 2px solid black; */
+    width: 1354px;
+    height: 100px;
+    align-content: center;
+
+}
+.header
+{
+    /* margin: 0 auto; */
+    margin: -30px;
+    margin-left: 130px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 1000px;
+}
+.title
+{
+    /* border: 2px solid black; */
+    width: 250px;
+    height: 70px;
+}
+.logo
+{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+.logo-icon
+{
+    width: 50px;
+    height: 70px;
+    /* border: 0.2px solid black; */
+}
+.logo-text
+{
+    /* border: 0.2px solid black; */
+    font-size: 30px;
+    /* margin-bottom: 20px; */
+    color: black;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-weight: 800px;
+
+}
+.feature
+{
+
+    width: 400px;
+    height: 30px;
+    margin: 20px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.but
+{
+    margin-top: 0px;
+    /* border: 2px solid black; */
+}
+
+.nav-link
+{
+    margin: 8px;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.but
+{
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.but
+{
+    background-color: var(--primary-color);
+    color: white;
+    border: 0.2px solid black;
+    font-weight: 100px;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    font-family: 'Playfair Display', serif;
+    /* padding-left: 10px; */
+    /* padding: 5px; */
+    padding-top: 5px;
+    padding-left: 0px;
+    text-decoration: none;
+}
+
+.but:hover
+{
+    color: rgb(63, 30, 116);
+    background-color: white;
+}
+
+.menu-button
+{
+    display: none;
+    margin-top: 25px;
+    width: 30px;
+    height: 30px;
+    /* border: none; */
+}
+
+@media screen and (max-width:768px) {
+    .menu-button
+    {
+        display: block;
+    }
+}
+
+.menu-icon
+{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+
+
+
+

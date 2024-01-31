@@ -16,3 +16,4 @@ document.querySelector(".hamburger").addEventListener("click", ()=>{
         }, 400);
     }
 })
+
