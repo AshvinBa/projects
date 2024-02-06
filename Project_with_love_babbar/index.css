@@ -17,8 +17,7 @@ font-family: 'Tulpen One', sans-serif;
     --dark-gray: #555;
 }
 
-*
-{
+*{
     margin: 0px;
     padding: 0px;
     text-decoration: none;
@@ -269,12 +268,14 @@ body
 
 .content-right
 {
+    
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .image-container
 {
+    /* animation: slideFromright 1s ease forwards; */
     border: none;
     border-radius: 1.225rem;
     overflow: hidden;
@@ -284,6 +285,7 @@ body
 
 .section-image
 {
+    /* animation: slideFromright 1s ease backwards; */
     height: 100%;
     width: 100%;
 }
@@ -345,7 +347,7 @@ body
         gap: 3.4rem;
         padding: 1.8rem 2rem;
         border: none;
-        margin-bottom: 10rem;
+        margin-bottom: 2rem;
         background-color: var(--light-gray);
         border-radius: 0.625rem;
     }
@@ -361,6 +363,7 @@ body
     }
     .svg-img
     {
+        /* animation: slideFromright 1s ease backwards; */
         height: 1.5rem;
     }
     .logo-text
@@ -377,8 +380,6 @@ body
         color: var(--dark-gray);
     }
 
-
-
     @media screen and (min-width:640px)
     {
         .company-grid
@@ -393,25 +394,284 @@ body
 
     }
 
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+.feture-container
+{
+    /* background-color: var(--light-gray); */
+    padding: 2.5rem 0;
+    text-align: center;
+    /* border: 0.1px solid black; */
+}
+
+.feture-contain
+{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.main-info
+{
+    display: flex;
+    flex-direction: column; /*Ek ke niche ek aana chahiye*/
+}
+.main-title
+{
+    font-size: 2.15rem;
+    font-weight: bold;
+}
+.main-discription
+{
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
+.feture-grid
+{
+    margin-top: 1.3rem;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(2,1fr); /* For grid column (No. of colom , )*/
+}
+
+.icon-container
+{
+    background-color: var(--background-color);
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    display: flex;            /* this three lines help to place the inside content in the middle of all sides. */
+    justify-content: center;
+    align-items: center;
+}
+
+.feture-svg
+{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.feture-card
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--gray);
+    padding: 2rem;
+    border-radius: 1rem;
+    gap: 1rem;
+}
+.feture-info
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.feture-title
+{
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.feture-discription
+{
+    color: white;
+}
+
+.feture-card:nth-child(1)
+{
+    background-color: #4a90e2;
+}
+.feture-card:nth-child(2)
+{
+    background-color: #FF6289;
+}
+.feture-card:nth-child(3)
+{
+    background-color: #fcbf58;
+}
+.feture-card:nth-child(4)
+{
+    background-color: #44bfc3;
+}
+.feture-card:nth-child(5)
+{
+    background-color: #77b05d;
+}
+.feture-card:nth-child(6)
+{
+    background-color: #7d78b1;
+}
 
 
 
+@media screen and (max-width:760){       /* Jab bhi meri width 760 se kam hogi tab*/
+    .feture-grid
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
 
 
 
+/*
+.feture-container
+{
+    display: flex;
+    justify-content: center;
+    height: 130vh;
+    margin-top: -100px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.feture-contain
+{
+    align-items: center;
+    width: 60%;
+    height: 110vh;
+}
+
+.logo-img
+{
+    margin-top: 10px;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 200px;
+}
+
+.heading-1
+{
+    font-weight: 800;
+}
+
+.analytics
+{
+    margin: 5px 10px;
+}
+
+.title1
+{
+    margin: 10px 0px;
+}
+.para
+{
+    margin-top: 10px;
+    font-weight: 300;
+    margin-bottom: 20px; 
+    font-size: 1.1rem;
+    color: var(--gray);
+}
+
+.feture-grid
+{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-start;
+    align-content: center;
+    margin-left: 12vh;
+    height: 80%;
+    width: 90%;
+}
+
+.g1
+{
+    font-size: 0.8rem;
+    height: 180px;
+    width: 280px;
+    margin-right: 50px;
+    margin-top: 30px;
+    border-radius: 0.6rem;
+    color: white;
+}
 
 
+.b1
+{
+    background-color: #670da3;
+}
+.b2
+{
+    background-color: rgb(51, 170, 51);
+}
+.b3
+{
+    background-color: rgb(49, 146, 114);
+}
+.b4
+{
+    background-color: rgb(238, 124, 17);
+}
+.b5
+{
+    background-color: rgb(179, 52, 80);
+}
+.b6
+{
+    background-color: rgb(49, 57, 167);
+}
 
+/*
+@media screen and (min-width:720px)
+{
+    .feture-container
+    {
+        width: 80%;
+        height: 250vh;
+        border: 0.2px solid black;
+    }
+    .feture-contain
+    {
+        width: 80%;
+        height: 90%;
+    }
 
-
-
-
-
-
-
-
-
-
+    .g1
+    {
+        height: 160px;
+        padding: 0px;
+    }
+    .feture-grid
+    {
+        overflow-y: hidden;
+    }
+    .icon
+    {
+        margin: 0px 0px;
+        width: 10px;
+        height: 10px;
+    }
+    .logo-img
+    {
+        margin: 0px 70px;
+        width: 20px;
+        height: 20px;
+    }
+    .title1
+    {
+        font-size: 15px;
+    }
+    .analytics
+    {
+    }
+    .feture-grid
+    {
+        width: 200px;
+        padding: 0px 0px;
+        align-items: center;
+        margin-top: -20px;
+    }
+    .icon-disc
+    {
+        color: black;
+        width: 99%;
+    }
+}
+*/
 
 
 
